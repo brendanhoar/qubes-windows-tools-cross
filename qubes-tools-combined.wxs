@@ -467,7 +467,7 @@ ConfigurableDirectory="INSTALLDIR"
         Absent="allow"
         Title="Xen PV Disk Drivers"
         Description="Xen paravirtual disk drivers."
-	Level="1001"
+	Level="1"
         >
             <ComponentRef Id="XenvbdDriver"/>
         </Feature>
@@ -506,7 +506,7 @@ ConfigurableDirectory="INSTALLDIR"
     Id="MoveProfiles"
     AllowAdvertise="no"
     Absent="allow"
-    Level="1001"
+    Level="1"
     Title="Move user profiles"
     Description="Moves user profiles directory (c:\Users) to the HVM&amp;s private disk (private.img)."
     >
